@@ -51,7 +51,9 @@ Follow these steps to set up the project locally:
 
 ## 🖼️ Screenshots
 
-*Include relevant screenshots of the app to showcase its UI and features.*
+![Log In page](./public/log-in-page.png)
+![dashboard](./public/dashboard.png)
+![Two side of pages that show reale time chat](./public/two-side-chat-board.png)
 
 
 
