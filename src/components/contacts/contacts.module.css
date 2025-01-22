@@ -1,0 +1,31 @@
+.contacts{
+
+    width: 40%;
+    background-color: var(--light-white);
+    height: 100%;
+}
+
+.header{
+
+display: flex;
+justify-content:space-between;
+padding:1em 0 1em 2em;
+border-bottom: 1px solid black;
+align-items: center;
+width: 100%;
+
+}
+
+.addButton{
+
+    width: 4em;
+    padding: 1;
+
+}
+
+.removeButton{
+
+    width: 3em;
+    
+}
+

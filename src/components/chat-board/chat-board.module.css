@@ -1,0 +1,94 @@
+.chatBoard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden; 
+    justify-content: space-between;
+    width: 60%;
+}
+
+.header{
+
+    width: 100%;
+    height: 65px;
+    background-color: var(--light-white);
+
+}
+
+.messageContainer {
+    
+    background-image: url(../../assets/background-chat.jpg);
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    overflow-y: auto; /* Add vertical scrolling when messages overflow */
+
+
+}
+
+.ulListTo {
+    overflow-y: auto;
+    list-style-type: none;
+    margin: 0;
+    padding:0 1em;
+    width: 100%;
+    height: 100%;
+     word-wrap: break-word; /*Ensure long messages wrap within the container */
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: flex-end;
+     scroll-behavior: smooth;
+}
+
+.ulListFrom {
+    overflow-y: auto;
+    list-style-type: none;
+    margin: 0;
+    padding:0 1em;
+    width: 100%;
+    height: 100%;
+     word-wrap: break-word;
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: flex-start;
+     scroll-behavior: smooth;
+}
+
+
+ .liItems {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: var(--light-gray); /* Optional: background color for each message */
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    width:fit-content;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sendInputFiled{
+    border: 1px solid #ccc;
+     border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.sendButton{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+} 
+
+.sendButton:hover {
+    background-color: var(--light-background-massage);
+} 

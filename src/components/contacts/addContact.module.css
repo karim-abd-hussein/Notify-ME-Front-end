@@ -1,0 +1,19 @@
+.addContact{
+
+    width: 20em;
+    height: 10em;
+    background-color: #b7b6b6;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 30vh;
+    left: 30em;
+    align-items: center;
+}
+
+.inputFiledAdd{
+
+    width: 90%;
+}

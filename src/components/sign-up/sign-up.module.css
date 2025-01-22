@@ -1,0 +1,21 @@
+.form{
+
+    background-color: var(--light-gray);
+    width: 20em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+
+
+.error{
+
+    color: var(--light-red);
+    margin: 0;
+}
